@@ -90,9 +90,6 @@ section{
     background: #25abd0;
 }
 
-
-/**/
-
 .btn{
     display: inline-block;
     margin-top: 3rem;
@@ -108,7 +105,7 @@ section{
     background:var(--gray);
 }
 
-/*color header*/
+/*Navigation Section*/
 header{
     position: fixed;
     top:0; left:0; right:0;
@@ -148,11 +145,11 @@ header .icons a{
 }
 
 header .icon-login a {
-    margin-left: 5rem; /* Reducir el margen izquierdo */
+    margin-left: 5rem;
 }
 
 header .icon-sign-up a {
-    margin-right: -5rem; /* Reducir el margen izquierdo */
+    margin-right: -5rem;
 }
 
 
@@ -172,4 +169,45 @@ header .fa-bars{
     cursor: pointer;
     border:.1rem solid rgba(0,0,0,.3);
     display: none;
+}
+
+/*Hero Section*/
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:#3D3D3D;
+    background-size: cover;
+    background-position:left;
+}
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h3{
+    font-size: 4rem;
+    color:rgb(255, 255, 255);
+}
+
+.home .content span{
+    font-size: 3.5rem;
+    color:var(--gray);
+    padding:1rem 0;
+    line-height: 1.5;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    color:#999;
+    padding:1rem 0;
+    line-height: 1.5;
+}
+
+.phone-image {
+    position: absolute;
+    top: 55%;
+    right: 15%;
+    transform: translateY(-50%);
+    width: 250px;
 }
