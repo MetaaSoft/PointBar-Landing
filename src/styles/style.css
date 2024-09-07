@@ -603,3 +603,238 @@ header .fa-bars{
     border-radius: .5rem;
 }
 
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.footer .box-container .box{
+    flex:1 1 25rem;
+}
+
+.footer .box-container .box h3{
+    color:#ffffff;
+    font-size: 2.5rem;
+    padding:1rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    color:#3d3d3d;
+    font-size: 1.5rem;
+    padding:1rem 0;
+}
+
+.footer .box-container .box a:hover{
+    color:var(--gray);
+    text-decoration: underline;
+}
+
+.footer .box-container .box  img{
+    margin-top: 1rem;
+}
+
+.footer .credit{
+    text-align: center;
+    padding:1.5rem;
+    margin-top: 1.5rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color:#333;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    padding-bottom: 9rem;
+}
+
+.footer .credit span{
+    color:var(--gray);
+}
+
+
+.about-videos{
+    text-align: center;
+    align-items: center;
+}
+/*ubicar imagen de celular*/
+.phone-image {
+    position: absolute; /* Coloca la imagen en una posición absoluta */
+    top: 55%; /* Coloca la imagen en el 50% del contenedor verticalmente */
+    right: 15%; /* Coloca la imagen en el lado derecho del contenedor */
+    transform: translateY(-50%); /* Centra verticalmente la imagen */
+    width: 250px; /* Ajusta el ancho de la imagen según tus necesidades */
+    /* Puedes agregar más estilos según tus preferencias */
+}
+
+
+.services-info-cliente p {
+    text-align: justify;
+    color: white;
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+}
+
+.services-info-empresa p {
+    text-align: justify;
+    color: white;
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        padding:2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+    .home{
+        background-position: left;
+    }
+
+}
+
+@media (max-width:768px){
+
+    header .fa-bars{
+        display: block;
+    }
+
+    header .navbar{
+        position:absolute;
+        top:100%; left:0; right:0;
+        background-color:#333;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header .navbar a{
+        margin:1.5rem;
+        padding:1.5rem;
+        background:#ff2020;
+        border:.1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+
+    .home .content h3{
+        font-size: 5rem;
+    }
+
+    .home .content span{
+        font-size: 2.5rem;
+    }
+
+    .icons-container .icons h3{
+        font-size: 2rem;
+    }
+
+    .icons-container .icons span{
+        font-size: 1.7rem;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .heading{
+        font-size: 3rem;
+    }
+
+}
+.title-bares{
+    font-size: 4em;
+    text-align: center;
+    margin-top: 1.4em;
+    margin-bottom: 1em;
+    color: #c5bfbc;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.container-bares {
+    background-color: rgb(30, 24, 33);
+    color: white;
+    padding: 4em;
+    border-radius: 4rem;
+    max-width: 45em;
+    max-height: 45em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5em rgba(65, 37, 76, 0.82);
+}
+
+.card-bares-1, .card-bares-2, .card-bares-3, .card-bares-4 {
+    background-color: #1e1e27;
+    border-radius: 3rem;
+    margin: 1em;
+    flex-direction: row; /* Los elementos estarán en línea */
+
+}
+
+.card-content {
+    display: flex; /* coloca la descripcion y el titulo al costado de la imagen*/
+    flex-direction: row;
+}
+
+.card-content img {
+    width: auto;
+    height: 50%;
+    margin-top: 1.6rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.text-content {
+
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    text-align: justify;
+
+}
+
+.card-title-1, .card-title-2, .card-title-3, .card-title-4 {
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.card-text-1, .card-text-2, .card-text-3, .card-text-4 {
+    color: #c5bfbc;
+    font-size: 1rem;
+}
+
+.btn {
+    color: #ffffff;
+}
