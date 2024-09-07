@@ -212,6 +212,80 @@ header .fa-bars{
     width: 250px;
 }
 
+.about .row{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+}
+
+
+.about .row .imagen{
+    flex:1 1 40rem;
+    position: relative;
+}
+
+.about .row .imagen video{
+    width:100%;
+    border:1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .row .imagen h3{
+    position: absolute;
+    top:50%; transform: translateY(-50%);
+    font-size: 3rem;
+    background:#fff;
+    width:100%;
+    padding:1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+.about .row .content{
+    flex:1 1 40rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color:#333;
+}
+
+.about .row .content p{
+    font-size: 1.5rem;
+    color:#999;
+    padding:.5rem 0;
+    padding-top: 3rem;
+    line-height: 1.5;
+}
+
+.miembros-container {
+    display: flex;
+    justify-content: space-around; /* Puedes usar también 'space-between' para que estén en los extremos */
+    align-items: center; /* Esto centrará verticalmente los elementos si las imágenes tienen diferentes alturas */
+    flex-wrap: wrap; /* Esto permite que los elementos se envuelvan si no caben en una sola fila */
+    margin: 20px 0; /* Ajusta el margen según sea necesario */
+}
+
+.miembro {
+    text-align: center;
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    margin: 10px; /* Ajusta el margen entre los miembros */
+}
+
+.miembro img {
+    width: 100%; /* Esto hace que la imagen ocupe todo el ancho del contenedor */
+    border-radius: 50%; /* Puedes usar esto para hacer las imágenes circulares */
+}
+.miembro p{
+    font-size: medium;
+}
+
 
 .services .box-container{
     display: flex;
@@ -328,4 +402,49 @@ header .fa-bars{
     margin-top: 2em;
     margin-bottom: 2em;
     padding: 2em;
+}
+
+/*Conracto fondo del cuadro de formulario*/
+.contact .row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap:1.5rem;
+    align-items: center;
+}
+
+.contact .row form{
+    flex:1 1 40rem;
+    padding:2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.contact .row .image{
+    flex:1 1 40rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form .box{
+    padding:1rem;
+    font-size: 1.7rem;
+    color:#333;
+    text-transform: none;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin:.7rem 0;
+    width: 100%;
+}
+
+.contact .row form .box:focus{
+    border-color: var(--gray);
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
 }
