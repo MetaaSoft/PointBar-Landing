@@ -86,14 +86,3 @@ Las contribuciones son bienvenidas. Si deseas contribuir al proyecto:
 2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
 3. Realiza tus cambios y haz commit (`git commit -m 'Añadir nueva funcionalidad'`).
 4. Envía un pull request.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-Siéntete libre de ajustar cualquier sección o agregar información adicional que consideres necesaria para reflejar mejor tu landing page. ¡Buena suerte con tu desarrollo!
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/19271547/3f383bc7-d70b-46d8-b77e-7b6f7c42a36c/paste.txt
