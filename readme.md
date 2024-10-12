@@ -1,7 +1,3 @@
-Aquí tienes un README personalizado para tu **landing page** del sistema de gestión de bares, basado en el contenido que proporcionaste:
-
----
-
 # README - Landing Page del Sistema de Gestión de Bares
 
 ![Logo de PointBar](https://i.postimg.cc/pVnsYgWV/landingpage-preview.png)
